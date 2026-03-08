@@ -1,6 +1,6 @@
 # Micro Code Documentation
-Ce repo contient la documentation de [https://github.com/wilrak0v/micro_code](micro_code) en Markdown et en HTML.
+Ce repo contient la documentation de [micro_code](https://github.com/wilrak0v/micro_code) en Markdown et en HTML.
 
-[doc/doc.md](Documentation)
+[Documentation](doc/doc.md)
 
 *wilrak0v, btw*
