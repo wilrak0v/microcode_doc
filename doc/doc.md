@@ -5,6 +5,7 @@ Micro_code est un bytecode conçu pour s'exécuter sur des microcontrôleurs 32-
 > Un bytecode c'est un format binaire intermédiaire entre le langage machine et le langage interprété.
 
 Micro_code est principalement basé sur la `stack`, où la pile en français. On peut donc voir l'espace mémoire comme une pile où l'on ajoute des valeurs dessus et où l'on en retire.
+
 ![Stack schema](../images/stack.png)
 
 ## Le header
