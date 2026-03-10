@@ -98,7 +98,7 @@ CALL 0x4A2B1C3D, R3
 Les  **registres** sont des petits endroits mémoires facilement accessible qui permettent de faire quelques opérations dessus. Il existe 6 registres en tout :
 - 4 registres généraux qui peuvent servir à tout ce qu'on veut (R0 à R3)
 - SP, le **s**tack **p**ointer est lui aussi un registre, c'est R4
-- PC, le **p**rogram **counter** est lui aussi considéré comme un registre du point de vue de l'exécution du code, c'est R5
+- PC, le **p**rogram **c**ounter est lui aussi considéré comme un registre du point de vue de l'exécution du code, c'est R5
 
 | Instruction     | OpCode | Signification                            |
 | --------------- | ------ | ---------------------------------------- |
