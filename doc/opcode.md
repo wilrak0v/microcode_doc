@@ -100,18 +100,18 @@ Les  **registres** sont des petits endroits mémoires facilement accessible qui 
 - SP, le **s**tack **p**ointer est lui aussi un registre, c'est R4
 - PC, le **p**rogram **c**ounter est lui aussi considéré comme un registre du point de vue de l'exécution du code, c'est R5
 
-| Instruction     | OpCode | Signification                            |
-| --------------- | ------ | ---------------------------------------- |
-| MOVV reg val    | 0x1C   | Met `val` dans `reg`                     |
-| MOVR reg1 reg2  | 0x1D   | Met `reg2` dans `reg1`                   |
-| MOVS reg        | 0x1E   | Met stack[sp] dans `reg`                 |
-| MOVRS reg       | 0x1F   | Push reg sur la pile                     |
-| STORER reg addr | 0x20   | Store `reg` à `addr`                     |
-| LOADR reg addr  | 0x21   | Load `addr` et met dans `reg`            |
-| ADDR reg1 reg2  | 0x22   | Add `reg` et `val` et stocke dans `reg`  |
-| SUBR reg1 reg2  | 0x23   | Sub `reg` et `val` et stocke dans `reg`  |
-| MULR reg1 reg2  | 0x24   | Mul `reg` par `val` et stocke dans `reg` |
-| DIVR reg1 reg2  | 0x25   | Div `reg` par `val` et stocke dans `reg` |
-| INCR reg        | 0x26   | Incrémente `reg`                         |
-| DECR reg        | 0x27   | Décrémente `reg`                         |
+| Instruction     | OpCode | Signification                               |
+| --------------- | ------ | ------------------------------------------- |
+| MOVV reg val    | 0x1C   | Met `val` dans `reg`                        |
+| MOVR reg1 reg2  | 0x1D   | Met `reg2` dans `reg1`                      |
+| MOVS reg        | 0x1E   | Met stack[sp] dans `reg`                    |
+| MOVRS reg       | 0x1F   | Push reg sur la pile                        |
+| STORER reg addr | 0x20   | Store `reg` à `addr`                        |
+| LOADR reg addr  | 0x21   | Load `addr` et met dans `reg`               |
+| ADDR reg1 reg2  | 0x22   | Add `reg1` et `reg2` et stocke dans `reg1`  |
+| SUBR reg1 reg2  | 0x23   | Sub `reg1` et `reg2` et stocke dans `reg1`  |
+| MULR reg1 reg2  | 0x24   | Mul `reg1` par `reg2` et stocke dans `reg1` |
+| DIVR reg1 reg2  | 0x25   | Div `reg1` par `reg2` et stocke dans `reg1` |
+| INCR reg        | 0x26   | Incrémente `reg`                            |
+| DECR reg        | 0x27   | Décrémente `reg`                            |
 
