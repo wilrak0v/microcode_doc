@@ -108,10 +108,10 @@ Les  **registres** sont des petits endroits mémoires facilement accessible qui 
 | MOVRS reg       | 0x1F   | Push reg sur la pile                     |
 | STORER reg addr | 0x20   | Store `reg` à `addr`                     |
 | LOADR reg addr  | 0x21   | Load `addr` et met dans `reg`            |
-| ADDR reg val    | 0x22   | Add `reg` et `val` et stocke dans `reg`  |
-| SUBR reg val    | 0x23   | Sub `reg` et `val` et stocke dans `reg`  |
-| MULR reg val    | 0x24   | Mul `reg` par `val` et stocke dans `reg` |
-| DIVR reg val    | 0x25   | Div `reg` par `val` et stocke dans `reg` |
+| ADDR reg1 reg2  | 0x22   | Add `reg` et `val` et stocke dans `reg`  |
+| SUBR reg1 reg2  | 0x23   | Sub `reg` et `val` et stocke dans `reg`  |
+| MULR reg1 reg2  | 0x24   | Mul `reg` par `val` et stocke dans `reg` |
+| DIVR reg1 reg2  | 0x25   | Div `reg` par `val` et stocke dans `reg` |
 | INCR reg        | 0x26   | Incrémente `reg`                         |
 | DECR reg        | 0x27   | Décrémente `reg`                         |
 
