@@ -23,3 +23,7 @@ Un header complet ressemble à ce qui suit.
 0x01        ; Graphic mode
 ```
 Dans cet exemple on créé une VM avec une stack de 4, une RAM de 64 et on demande pour avoir un mode graphique sous forme de texte (console / terminal).
+
+## Les instructions
+Les instructions sont ce qui dit au processeur de faire qq chose, quoi faire, et avec quoi le faire.
+Les différentes instructions sont détaillés dans le fichier [opcode](opcode).
